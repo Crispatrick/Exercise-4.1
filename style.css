@@ -1,0 +1,138 @@
+:root{
+    --Y-color: #ffd37bc7;
+    
+    --Tb-color: #3D3D3D;
+    --Tw-color: #FFFFFF;
+
+    --B-color: #77ae7d;
+}
+body{
+    margin: 0;
+    
+    background-image: url("assets/marjan-blan-_kUxT8WkoeY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header{
+    position: sticky;
+    background-color: var(--Y-color);
+   
+    font-size: 1.5rem;    
+    backdrop-filter: blur(5px)
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+    
+}
+
+.top a div{
+    padding: .7rem;
+
+    
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+
+}
+.top a{
+    text-decoration: none;
+    color: var(--Tb-color);
+}
+
+.active{
+    background-color: var(--B-color);
+    border-radius: 1rem;
+
+
+    color: var(--Tw-color);
+    font-weight: 500;
+}
+
+.info{
+    display: flex;
+    
+
+    
+    
+}
+.item2{
+    
+    flex-basis: 1300px;
+    text-align: right;
+}
+
+.item1{
+    margin: 30px;
+    
+
+
+}
+.bg{
+    background-image: url(assets/notebook\ texture.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    border-radius: 30px;
+    
+    
+ 
+    padding: 50px;
+}
+.item1 p{
+    font-size: 1.5rem;
+}
+
+.academe{
+    background-color: var(--Y-color);
+    backdrop-filter: blur(5px);
+    margin: 30px;
+
+    padding: 30px;
+
+    position: absolute;
+    bottom: -470px;
+
+    border-radius: 2rem;
+    
+
+    
+}
+
+.school{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.school div img{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 1.5rem;
+    
+    
+}
+.school div{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.works{
+    margin: 100px;
+    background-color: var(--Y-color);
+    border-radius: 1.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.works{
+    padding: 30px;
+}
